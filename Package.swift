@@ -56,7 +56,7 @@ extension Target {
     }
     
     static func remoteBinaryURLString(for targetName: String) -> String {
-        return "https://d3mh65msdilczf.cloudfront.net/home/iosArcXPSDK/version_1.0.0/SDK/\(targetName).zip" 
+        return "https://d3mh65msdilczf.cloudfront.net/home/iosArcXPSDK/version_1.0.1/SDK/\(targetName).zip" 
     }
 }
 
@@ -69,9 +69,9 @@ extension String {
     }
     
     enum CheckSum {
-        static let arcXPsdk_CS = "e6f78b882cf9901a61d2b3d75b22a31713538a6606ba72fe1be8fd3925e44f7f"
-        static let googleAds_CS = "6f208a134b535bf0e1b08bbd74e604afd98187f9fe5ee1a5aeb0b1d8c48e6bd5"
-        static let omSDK_CS = "fc08d471ed82a77d4bb0c41f5d74302f2f134da7a032a3b2b5d4a37ee4ca48d3"
-        static let palSDK_CS = "bc994808d128f40c61964974d1ad500640c69978b21734de7bef0875b0a1db42"
+        static let arcXPsdk_CS = "e856b4079118c31e1ab73cfc4ee320eb67e63bcb4150eed7ea8c3a5388ddab8e"
+        static let googleAds_CS = "0e5e04657f45283a86c1917788c6a6cbdef6cf01c916ea4c49f2dd4318f58076"
+        static let omSDK_CS = "7f7ee94560c064f0bf4c38b0d23ccb6f8f832453f5c18ab33dccae8ca5479ace"
+        static let palSDK_CS = "a18b0d9be6e118080246e1c962adc872f1d2e3012acd948d14758be477ea27bd"
     }
 }
