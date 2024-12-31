@@ -56,7 +56,7 @@ extension Target {
     }
     
     static func remoteBinaryURLString(for targetName: String) -> String {
-        return "https://d3mh65msdilczf.cloudfront.net/home/iosArcXPSDK/version_1.3.0/SDK/\(targetName).zip" 
+        return "https://github.com/arcxp/arcxpSDK-iOS-package/raw/refs/heads/main/\(targetName).zip"
     }
 }
 
